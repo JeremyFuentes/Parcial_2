@@ -33,5 +33,40 @@ namespace AccesoDatos
             }
         }
 
+        public int InsertarProveedor(Suppliers suppliers)
+        {
+            using (var conexion = Database.GetSqlConnection())
+            {
+                String insertar = "";
+                insertar = insertar + "INSERT INTO [dbo].[Suppliers] " + "\n";
+                insertar = insertar + "           ([CompanyName] " + "\n";
+                insertar = insertar + "           ,[ContactName] " + "\n";
+                insertar = insertar + "           ,[ContactTitle] " + "\n";
+                insertar = insertar + "           ,[Address] " + "\n";
+                insertar = insertar + "           ,[City]) " + "\n";
+                insertar = insertar + " " + "\n";
+                insertar = insertar + "     VALUES " + "\n";
+                insertar = insertar + "           (@CompanyName " + "\n";
+                insertar = insertar + "           ,@ContactName " + "\n";
+                insertar = insertar + "           ,@ContactTitle " + "\n";
+                insertar = insertar + "           ,@Address " + "\n";
+                insertar = insertar + "           ,@City)";
+
+
+
+                var insertadas = conexion.Execute(insertar, new
+                {
+                    CompanyName = suppliers.CompanyName, 
+                    ContactName = suppliers.ContactName,
+                    ContactTitle = suppliers.ContactTitle,
+                    Address = suppliers.Address,
+                    City = suppliers.City
+                });
+
+                return insertadas;
+            }
+
+        }
+
     }
 }

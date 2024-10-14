@@ -28,27 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dgvCategoria = new System.Windows.Forms.DataGridView();
+            this.dgvProveedor = new System.Windows.Forms.DataGridView();
             this.btnObtenerTodo = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvCategoria)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tbxCompanyName = new System.Windows.Forms.TextBox();
+            this.tbxContactName = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.tbxContactTitle = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.tbxAddress = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.tbxCity = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btnInsertar = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProveedor)).BeginInit();
             this.SuspendLayout();
             // 
-            // dgvCategoria
+            // dgvProveedor
             // 
-            this.dgvCategoria.AllowUserToAddRows = false;
-            this.dgvCategoria.AllowUserToDeleteRows = false;
-            this.dgvCategoria.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCategoria.Location = new System.Drawing.Point(27, 31);
-            this.dgvCategoria.Name = "dgvCategoria";
-            this.dgvCategoria.ReadOnly = true;
-            this.dgvCategoria.RowHeadersWidth = 51;
-            this.dgvCategoria.RowTemplate.Height = 24;
-            this.dgvCategoria.Size = new System.Drawing.Size(1004, 337);
-            this.dgvCategoria.TabIndex = 0;
+            this.dgvProveedor.AllowUserToAddRows = false;
+            this.dgvProveedor.AllowUserToDeleteRows = false;
+            this.dgvProveedor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvProveedor.Location = new System.Drawing.Point(27, 31);
+            this.dgvProveedor.Name = "dgvProveedor";
+            this.dgvProveedor.ReadOnly = true;
+            this.dgvProveedor.RowHeadersWidth = 51;
+            this.dgvProveedor.RowTemplate.Height = 24;
+            this.dgvProveedor.Size = new System.Drawing.Size(1004, 337);
+            this.dgvProveedor.TabIndex = 0;
             // 
             // btnObtenerTodo
             // 
-            this.btnObtenerTodo.Location = new System.Drawing.Point(438, 487);
+            this.btnObtenerTodo.Location = new System.Drawing.Point(27, 395);
             this.btnObtenerTodo.Name = "btnObtenerTodo";
             this.btnObtenerTodo.Size = new System.Drawing.Size(139, 48);
             this.btnObtenerTodo.TabIndex = 1;
@@ -56,24 +67,142 @@
             this.btnObtenerTodo.UseVisualStyleBackColor = true;
             this.btnObtenerTodo.Click += new System.EventHandler(this.btnObtenerTodo_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(569, 423);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(128, 18);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Company Name";
+            // 
+            // tbxCompanyName
+            // 
+            this.tbxCompanyName.Location = new System.Drawing.Point(715, 419);
+            this.tbxCompanyName.Name = "tbxCompanyName";
+            this.tbxCompanyName.Size = new System.Drawing.Size(157, 22);
+            this.tbxCompanyName.TabIndex = 3;
+            // 
+            // tbxContactName
+            // 
+            this.tbxContactName.Location = new System.Drawing.Point(715, 456);
+            this.tbxContactName.Name = "tbxContactName";
+            this.tbxContactName.Size = new System.Drawing.Size(157, 22);
+            this.tbxContactName.TabIndex = 5;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(581, 460);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(116, 18);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Contact Name";
+            // 
+            // tbxContactTitle
+            // 
+            this.tbxContactTitle.Location = new System.Drawing.Point(715, 494);
+            this.tbxContactTitle.Name = "tbxContactTitle";
+            this.tbxContactTitle.Size = new System.Drawing.Size(157, 22);
+            this.tbxContactTitle.TabIndex = 7;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(593, 498);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(104, 18);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Contact Title";
+            // 
+            // tbxAddress
+            // 
+            this.tbxAddress.Location = new System.Drawing.Point(715, 531);
+            this.tbxAddress.Name = "tbxAddress";
+            this.tbxAddress.Size = new System.Drawing.Size(157, 22);
+            this.tbxAddress.TabIndex = 9;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(628, 535);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(69, 18);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Address";
+            // 
+            // tbxCity
+            // 
+            this.tbxCity.Location = new System.Drawing.Point(715, 568);
+            this.tbxCity.Name = "tbxCity";
+            this.tbxCity.Size = new System.Drawing.Size(157, 22);
+            this.tbxCity.TabIndex = 11;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(660, 572);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(37, 18);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "City";
+            // 
+            // btnInsertar
+            // 
+            this.btnInsertar.Location = new System.Drawing.Point(907, 482);
+            this.btnInsertar.Name = "btnInsertar";
+            this.btnInsertar.Size = new System.Drawing.Size(124, 47);
+            this.btnInsertar.TabIndex = 12;
+            this.btnInsertar.Text = "Insertar";
+            this.btnInsertar.UseVisualStyleBackColor = true;
+            this.btnInsertar.Click += new System.EventHandler(this.btnInsertar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1062, 673);
+            this.Controls.Add(this.btnInsertar);
+            this.Controls.Add(this.tbxCity);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.tbxAddress);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.tbxContactTitle);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.tbxContactName);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.tbxCompanyName);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnObtenerTodo);
-            this.Controls.Add(this.dgvCategoria);
+            this.Controls.Add(this.dgvProveedor);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvCategoria)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProveedor)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dgvCategoria;
+        private System.Windows.Forms.DataGridView dgvProveedor;
         private System.Windows.Forms.Button btnObtenerTodo;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox tbxCompanyName;
+        private System.Windows.Forms.TextBox tbxContactName;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox tbxContactTitle;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox tbxAddress;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox tbxCity;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnInsertar;
     }
 }
 
