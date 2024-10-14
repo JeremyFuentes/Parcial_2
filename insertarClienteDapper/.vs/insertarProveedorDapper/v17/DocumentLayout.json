@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\Par_2\\insertarClienteDapper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7DB35E64-AF06-41AE-B1E5-7BE92BEF95CA}|insertarClienteDapper\\insertarClienteDapper.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo iv\\programacion ii\\par_2\\insertarclientedapper\\insertarclientedapper\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DB35E64-AF06-41AE-B1E5-7BE92BEF95CA}|insertarClienteDapper\\insertarClienteDapper.csproj|solutionrelative:insertarclientedapper\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7DB35E64-AF06-41AE-B1E5-7BE92BEF95CA}|insertarClienteDapper\\insertarClienteDapper.csproj|C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\Par_2\\insertarClienteDapper\\insertarclientedapper\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7DB35E64-AF06-41AE-B1E5-7BE92BEF95CA}|insertarClienteDapper\\insertarClienteDapper.csproj|solutionrelative:insertarclientedapper\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93CB97F8-BA4D-49DF-B69B-925B9E78383D}|AccesoDatos\\AccesoDatos.csproj|C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\Par_2\\insertarClienteDapper\\accesodatos\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93CB97F8-BA4D-49DF-B69B-925B9E78383D}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7DB35E64-AF06-41AE-B1E5-7BE92BEF95CA}|insertarClienteDapper\\insertarClienteDapper.csproj|C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\Par_2\\insertarClienteDapper\\insertarclientedapper\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7DB35E64-AF06-41AE-B1E5-7BE92BEF95CA}|insertarClienteDapper\\insertarClienteDapper.csproj|solutionrelative:insertarclientedapper\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DB35E64-AF06-41AE-B1E5-7BE92BEF95CA}|insertarClienteDapper\\insertarClienteDapper.csproj|C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\Par_2\\insertarClienteDapper\\insertarclientedapper\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{7DB35E64-AF06-41AE-B1E5-7BE92BEF95CA}|insertarClienteDapper\\insertarClienteDapper.csproj|solutionrelative:insertarclientedapper\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{93CB97F8-BA4D-49DF-B69B-925B9E78383D}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo iv\\programacion ii\\par_2\\insertarclientedapper\\accesodatos\\suppliersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93CB97F8-BA4D-49DF-B69B-925B9E78383D}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\suppliersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93CB97F8-BA4D-49DF-B69B-925B9E78383D}|AccesoDatos\\AccesoDatos.csproj|C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\Par_2\\insertarClienteDapper\\accesodatos\\suppliersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93CB97F8-BA4D-49DF-B69B-925B9E78383D}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\suppliersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7DB35E64-AF06-41AE-B1E5-7BE92BEF95CA}|insertarClienteDapper\\insertarClienteDapper.csproj|C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\Par_2\\insertarClienteDapper\\insertarclientedapper\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DB35E64-AF06-41AE-B1E5-7BE92BEF95CA}|insertarClienteDapper\\insertarClienteDapper.csproj|solutionrelative:insertarclientedapper\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93CB97F8-BA4D-49DF-B69B-925B9E78383D}|AccesoDatos\\AccesoDatos.csproj|C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\Par_2\\insertarClienteDapper\\accesodatos\\suppliers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93CB97F8-BA4D-49DF-B69B-925B9E78383D}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\suppliers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93CB97F8-BA4D-49DF-B69B-925B9E78383D}|AccesoDatos\\AccesoDatos.csproj|C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\Par_2\\insertarClienteDapper\\accesodatos\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93CB97F8-BA4D-49DF-B69B-925B9E78383D}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\Par_2\\insertarClienteDapper\\insertarClienteDapper\\Form1.cs",
               "RelativeDocumentMoniker": "insertarClienteDapper\\Form1.cs",
@@ -73,13 +73,14 @@
               "RelativeDocumentMoniker": "AccesoDatos\\SuppliersRepository.cs",
               "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\Par_2\\insertarClienteDapper\\AccesoDatos\\SuppliersRepository.cs",
               "RelativeToolTip": "AccesoDatos\\SuppliersRepository.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAqwDQAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T21:41:45.762Z"
+              "WhenOpened": "2024-10-04T21:41:45.762Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Suppliers.cs",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\Par_2\\insertarClienteDapper\\AccesoDatos\\Suppliers.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Suppliers.cs",
@@ -87,11 +88,12 @@
               "RelativeToolTip": "AccesoDatos\\Suppliers.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T21:37:48.786Z"
+              "WhenOpened": "2024-10-04T21:37:48.786Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Database.cs",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\Par_2\\insertarClienteDapper\\AccesoDatos\\Database.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Database.cs",
@@ -99,11 +101,12 @@
               "RelativeToolTip": "AccesoDatos\\Database.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T21:27:38.584Z"
+              "WhenOpened": "2024-10-04T21:27:38.584Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\Par_2\\insertarClienteDapper\\insertarClienteDapper\\Form1.cs",
               "RelativeDocumentMoniker": "insertarClienteDapper\\Form1.cs",
@@ -115,13 +118,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\Par_2\\insertarClienteDapper\\insertarClienteDapper\\App.config",
               "RelativeDocumentMoniker": "insertarClienteDapper\\App.config",
               "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\Par_2\\insertarClienteDapper\\insertarClienteDapper\\App.config",
               "RelativeToolTip": "insertarClienteDapper\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-10-04T21:28:04.281Z",
               "EditorCaption": ""
